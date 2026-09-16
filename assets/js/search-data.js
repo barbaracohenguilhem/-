@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/al-folio/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-paperly-notes",
+          title: "Paperly — Notes",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/notes/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",

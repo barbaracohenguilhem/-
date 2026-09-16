@@ -93,8 +93,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio/blog/";
               },
-            },{id: "nav-guess-the-number-game",
-          title: "Guess the Number Game",
+            },{id: "nav-task-board",
+          title: "Task Board",
           description: "",
           section: "Navigation",
           handler: () => {
